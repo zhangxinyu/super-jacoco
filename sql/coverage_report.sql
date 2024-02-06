@@ -1,4 +1,5 @@
 CREATE DATABASE `super-jacoco` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin ;
+use super-jacoco;
 CREATE TABLE `diff_coverage_report` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `job_record_uuid` varchar(80) NOT NULL COMMENT '请求唯一标识码',
